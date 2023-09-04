@@ -1,0 +1,50 @@
+# Book settings
+title                       : "Systematic Review of Quantum Serverless: Elastic Integration of Quantum and Classical Computing"
+author                      : "Dimitar Mileski and Marjan Gusev"
+copyright                   : "2023"  
+logo                        : images/logo2.png  
+exclude_patterns            : [_build, Thumbs.db, .DS_Store, "**.ipynb_checkpoints"]
+
+execute:
+  execute_notebooks: 'off'
+
+only_build_toc_files: true 
+
+sphinx:
+  html_context:
+    default_mode: light
+
+html:
+  favicon                   : images/logo2.png
+  use_edit_page_button      : true  
+  use_repository_button     : true  
+  use_issues_button         : true  
+  extra_navbar              : Powered by <a href="https://jupyterbook.org">Jupyter Book</a>  
+  home_page_in_navbar       : true  
+  baseurl                   : ""  
+  comments:
+    hypothesis              : true
+
+
+launch_buttons:
+  notebook_interface        : "jupyterlab"  
+  binderhub_url             : "https://mybinder.org"
+  thebe                     : true  
+
+repository:
+  url                       : https://github.com/dimitarmileski/Systematic-Review-of-Quantum-Serverless-Elastic-Integration-of-Quantum-and-Classical-Computing
+  branch                    : main  
+
+parse:
+  myst_enable_extensions:
+    - html_image
+    - amsmath
+    - colon_fence
+    - deflist 
+    - dollarmath
+    - html_admonition
+    - html_image
+    - linkify 
+    - replacements
+    - smartquotes
+    - substitution
