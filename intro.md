@@ -18,7 +18,7 @@ Faculty of Computer Science and Engineering
 
 Skopje, North Macedonia
 
-E-mail: dimitar.mileski@ieee.org, marjan.gushev@finki.ukim.mk
+E-mail: dimitar.mileski@finki.ukim.mk, marjan.gushev@finki.ukim.mk
 
 
 ##  Quantum Serverless Architecture
