@@ -1,7 +1,7 @@
 # Book settings
-title                       : "Systematic Review of Quantum Serverless: Elastic Integration of Quantum and Classical Computing"
-author                      : "Dimitar Mileski and Marjan Gusev"
-copyright                   : "2023"  
+title                       : "Comprehensive Overview of Quantum Serverless: Elastic Integration of Quantum and Classical Computing"
+author                      : "Dimitar Mileski, Marjan Gusev and Sashko Ristov"
+copyright                   : "2025"  
 logo                        : images/logo2.png  
 exclude_patterns            : [_build, Thumbs.db, .DS_Store, "**.ipynb_checkpoints"]
 
@@ -24,6 +24,8 @@ html:
   baseurl                   : ""  
   comments:
     hypothesis              : true
+  options:
+      default_mode: light
 
 
 launch_buttons:

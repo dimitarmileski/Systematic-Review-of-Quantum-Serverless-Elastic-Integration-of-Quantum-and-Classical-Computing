@@ -9,7 +9,7 @@ parts:
 - caption:  
   chapters:
   - file: 01/hpc
-    title: Systematic Review of Quantum Serverless solutions
+    title: Overview of Quantum Serverless solutions
 - caption: External resources
   chapters:
   - url: https://orcid.org/0000-0003-0728-626X
@@ -17,6 +17,9 @@ parts:
     external: true
   - url: https://orcid.org/0000-0003-0351-9783
     title: Marjan Gusev
+    external: true  
+  - url: https://orcid.org/0000-0003-1996-0098
+    title: Sashko Ristov
     external: true  
   - url: https://github.com/dimitarmileski/Systematic-Review-of-Quantum-Serverless-Elastic-Integration-of-Quantum-and-Classical-Computing
     title: Github Repo
