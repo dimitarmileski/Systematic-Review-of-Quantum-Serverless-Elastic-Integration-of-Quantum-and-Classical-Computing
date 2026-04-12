@@ -1,0 +1,43 @@
+:root {
+  --md-primary: #0d6d77;
+  --md-primary-dark: #0a5660;
+  --md-accent-soft: #d7eef1;
+}
+
+body {
+  background: linear-gradient(180deg, #f6fbfc 0%, #ffffff 280px);
+}
+
+a {
+  color: var(--md-primary);
+}
+
+a:hover {
+  color: var(--md-primary-dark);
+}
+
+main h1,
+main h2,
+main h3 {
+  letter-spacing: 0.01em;
+}
+
+blockquote,
+.admonition {
+  border-left: 4px solid var(--md-primary);
+  background: #f8fcfd;
+}
+
+nav,
+header {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+/* Add clean spacing between stacked embeds */
+iframe {
+  display: block;
+}
+
+iframe + iframe {
+  margin-top: 24px;
+}

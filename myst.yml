@@ -1,0 +1,28 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 6f1b74de-867a-4857-a52d-1f4b5380bb17
+  title: Comprehensive Overview of Quantum Serverless
+  description: Elastic integration of quantum and classical computing.
+  keywords:
+    - quantum
+    - serverless
+    - high performance computing
+  authors:
+    - name: Dimitar Mileski
+    - name: Marjan Gusev
+    - name: Sashko Ristov
+  github: https://github.com/dimitarmileski/Systematic-Review-of-Quantum-Serverless-Elastic-Integration-of-Quantum-and-Classical-Computing
+  toc:
+    - file: intro.md
+    - title: Contents
+      children:
+        - file: 03/architecture.md
+        - file: 01/hpc.md
+
+site:
+  template: book-theme
+  options:
+    favicon: images/logo2.png
+    logo: images/logo2.png
+    logo_text: Quantum Serverless
