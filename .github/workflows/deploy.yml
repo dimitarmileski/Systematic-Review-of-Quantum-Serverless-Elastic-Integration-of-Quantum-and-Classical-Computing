@@ -38,6 +38,8 @@ jobs:
       - name: Install Jupyter Book (via myst)
         run: npm install -g jupyter-book
       - name: Build HTML Assets
+        env:
+          BASE_URL: /Systematic-Review-of-Quantum-Serverless-Elastic-Integration-of-Quantum-and-Classical-Computing
         run: jupyter-book build --html
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
