@@ -2,7 +2,7 @@
 ## Comprehensive Overview of Quantum Serverless: Elastic Integration of Quantum and Classical Computing
 
 ::::{note}
-Paper link: preprint is not published yet.
+Paper DOI: [[10.1016/j.jpdc.2026.105303](https://www.sciencedirect.com/science/article/pii/S074373152600081X?via%3Dihub)].
 ::::
 
 ## Authors
